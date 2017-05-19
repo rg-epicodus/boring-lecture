@@ -1,16 +1,26 @@
-.intro {
-  font-style: italic;
-  font-size: 36px;
+.dark-background {
+  background-color: #2d2d2d;
+  color: #f9f9f9;
 }
 
-p.intro {
-  font-family: fantasy;
-  color: blue;
+.light-background {
+  background-color: #f9f9f9;
 }
 
-img.intro {
-  margin: 20px;
-  padding: 20px;
-  border:solid #003300 4px;
-  background: #006600;
+.red-background {
+  background-color: red;
+}
+
+.btn {
+  background-color: #f9f9f9;
+  color: #2d2d2d;
+}
+
+.btn:hover {
+  background-color: #2d2d2d;
+  color: #f9f9f9;
+}
+
+body {
+  margin-left: 25px;
 }
